@@ -15,9 +15,9 @@ class _HomePageState extends State<HomePage> {
   final String _baseUrl =
       "http://api.exchangeratesapi.io/v1/latest?access_key=";
 
-  TextEditingController _controller = TextEditingController();
+  final TextEditingController _controller = TextEditingController();
 
-  Map<String, double> _oranlar = {};
+  final Map<String, double> _oranlar = {};
 
   String _secilenKur = "USD";
   double _sonuc = 0;
@@ -25,7 +25,7 @@ class _HomePageState extends State<HomePage> {
   @override
   void initState() {
     super.initState();
-    WidgetsBinding.instance!.addPostFrameCallback((timeStamp) {
+    WidgetsBinding.instance.addPostFrameCallback((timeStamp) {
       _verileriInternettenCek();
     });
   }
