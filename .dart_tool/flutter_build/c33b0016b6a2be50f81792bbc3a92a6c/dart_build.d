@@ -1,0 +1,1 @@
+ /Applications/Castlexe/Codexe/GitHub\ Projelerim/currency_converter/.dart_tool/flutter_build/c33b0016b6a2be50f81792bbc3a92a6c/dart_build_result.json: 

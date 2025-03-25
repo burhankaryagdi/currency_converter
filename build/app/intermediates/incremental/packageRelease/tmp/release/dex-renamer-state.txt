@@ -1,0 +1,4 @@
+#Tue Mar 25 11:24:56 TRT 2025
+base.0=/Applications/Castlexe/Codexe/GitHub Projelerim/currency_converter/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
